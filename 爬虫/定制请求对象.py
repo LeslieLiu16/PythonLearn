@@ -8,10 +8,10 @@ url = 'https://www.baidu.com'
 # 端口号 http 80 https 443
 # 路径  s
 # 参数  ？
-# 锚点 
+# 锚点
 
 headers = {
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
 }
 
 # 定制请求对象
