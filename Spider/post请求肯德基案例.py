@@ -20,7 +20,7 @@ def creat_request(page):
         'pageSize': '10',
     }
     headers = {
-        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
     }
     data = urllib.parse.urlencode(data).encode('utf-8')
     request = urllib.request.Request(url=base_url, data=data, headers=headers)
@@ -28,13 +28,15 @@ def creat_request(page):
 
 
 def get_content(request):
+    '''get_content'''
     response = urllib.request.urlopen(request)
     content = response.read().decode('utf-8')
     return content
 
 
-def download_(page,content):
-    with open('kfc_'+str(page)+'.json','w',encoding='utf-8') as fp:
+def download_(page, content):
+    '''download'''
+    with open('kfc_'+str(page)+'.json', 'w', encoding='utf-8') as fp:
         fp.write(content)
 
 
