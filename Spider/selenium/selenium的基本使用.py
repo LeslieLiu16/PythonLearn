@@ -10,7 +10,6 @@ browser = webdriver.Edge(path)
 
 # browser.get(url)
 
-url = 'https://www.jd.com/'
+url = 'https://www.bilibili.com/'
 browser.get(url)
-content = browser.page_source
-print(content)
+# content = browser.page_source
