@@ -1,5 +1,7 @@
 /data
-/Pytorch/data
 /.vscode
 *.exe
 __pycache__/
+output/
+/BaseProject/数据挖掘/pubg-finish-placement-prediction
+BaseProject/数据挖掘/.ipynb_checkpoints
