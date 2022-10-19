@@ -21,3 +21,4 @@ if __name__ == '__main__':
     dance_pro = multiprocessing.Process(target=dance, kwargs={'name':'xnhs','num': 2})
     sing_pro.start()
     dance_pro.start()
+
